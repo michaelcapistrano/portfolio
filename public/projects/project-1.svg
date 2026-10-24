@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5b2e"/><stop offset="1" stop-color="#1a1a1a"/></linearGradient>
+    <radialGradient id="r" cx="0.75" cy="0.25" r="0.6"><stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <rect width="1600" height="1000" fill="url(#r)"/>
+  <g fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="2">
+    <circle cx="1200" cy="300" r="220"/><circle cx="1200" cy="300" r="320"/><circle cx="1200" cy="300" r="420"/>
+  </g>
+  <rect x="220" y="260" width="760" height="480" rx="24" fill="#fff" fill-opacity="0.1" stroke="#fff" stroke-opacity="0.3"/>
+  <rect x="260" y="300" width="300" height="24" rx="12" fill="#fff" fill-opacity="0.6"/>
+  <rect x="260" y="350" width="460" height="16" rx="8" fill="#fff" fill-opacity="0.3"/>
+  <rect x="260" y="380" width="400" height="16" rx="8" fill="#fff" fill-opacity="0.3"/>
+  <rect x="260" y="460" width="200" height="240" rx="16" fill="#fff" fill-opacity="0.15"/>
+  <rect x="490" y="460" width="200" height="240" rx="16" fill="#fff" fill-opacity="0.15"/>
+  <rect x="720" y="460" width="220" height="240" rx="16" fill="#fff" fill-opacity="0.15"/>
+  <text x="220" y="880" font-family="Georgia,serif" font-style="italic" font-size="72" fill="#fff" fill-opacity="0.85">Commerce</text>
+</svg>
