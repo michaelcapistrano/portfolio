@@ -29,3 +29,11 @@ Copy `.env.example` to `.env` and set `VITE_WEB3FORMS_KEY` (free key from [web3f
 ## Theming
 
 Colors are CSS variables in `src/style.css` (`:root` for light, `.dark` for dark). Change `--accent` to rebrand.
+
+## Deploying
+
+Hosted on Vercel (free Hobby plan): https://portfolio-pi-henna-94.vercel.app
+
+- Once the GitHub repo is connected in Vercel, every push to `main` redeploys production automatically.
+- Manual deploy from this folder: `npx vercel --prod`
+- Contact form key: `npx vercel env add VITE_WEB3FORMS_KEY production`, then redeploy.
